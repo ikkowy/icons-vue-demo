@@ -1,47 +1,28 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+  import DemoIcon from './components/DemoIcon.vue';
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
-
-  <main>
-    <TheWelcome />
+  <main style="display: flex; gap: 15px; flex-wrap: wrap;">
+    <demo-icon name="book" />
+    <demo-icon name="dark" />
+    <demo-icon name="exit" />
+    <demo-icon name="gear" />
+    <demo-icon name="group" />
+    <demo-icon name="help" />
+    <demo-icon name="info" />
+    <demo-icon name="key" />
+    <demo-icon name="light" />
+    <demo-icon name="pin" />
+    <demo-icon name="search" />
+    <demo-icon name="server" />
+    <demo-icon name="user" />
+    <demo-icon name="user-circle" />
   </main>
 </template>
 
 <style scoped>
-header {
-  line-height: 1.5;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
+main {
+  font-family: Arial, Helvetica, sans-serif;
 }
 </style>
