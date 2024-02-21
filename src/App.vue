@@ -14,10 +14,17 @@
     <demo-icon name="key" />
     <demo-icon name="light" />
     <demo-icon name="pin" />
+    <demo-icon name="pin-off" />
     <demo-icon name="search" />
     <demo-icon name="server" />
     <demo-icon name="user" />
     <demo-icon name="user-circle" />
+    <demo-icon name="bell" />
+    <demo-icon name="bell-off" />
+    <demo-icon name="eye" />
+    <demo-icon name="eye-off" />
+    <demo-icon name="menu" />
+    <demo-icon name="menu-open" />
   </main>
 </template>
 
