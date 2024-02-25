@@ -17,7 +17,7 @@ const isSolid = ref(false);
 
 <style scoped>
 .demo-icon {
-  border: 2px solid black;
+  border: 4px solid black;
   cursor: pointer;
 }
 
@@ -26,8 +26,13 @@ const isSolid = ref(false);
 }
 
 .demo-icon-caption {
+  box-sizing: border-box;
   font-size: 0.8em;
+  width: 6em;
   margin-top: 4px;
+  padding: 2px;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 .demo-icon-caption::selection {
