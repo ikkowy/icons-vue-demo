@@ -5,10 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=./",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@ikkowy/icons-vue": "^0.0.6",
     "vue": "^3.4.15"
   },
   "devDependencies": {
