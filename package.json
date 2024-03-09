@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@ikkowy/icons-vue": "^0.0.6",
+    "@ikkowy/icons-vue": "^0.0.7",
     "vue": "^3.4.15"
   },
   "devDependencies": {

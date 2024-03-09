@@ -31,7 +31,6 @@ const isSolid = ref(false);
   width: 6em;
   margin-top: 4px;
   padding: 2px;
-  font-family: 'Courier New', Courier, monospace;
   text-align: center;
 }
 
